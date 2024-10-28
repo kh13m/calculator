@@ -7,7 +7,7 @@ function calculate() {
 
     // Validate inputs to ensure they are numbers
     if (isNaN(n1) || n1 === "" || isNaN(n2) || n2 === "") {
-        noti.value = "Please enter valid numbers in both fields.";
+        noti.value = "Please enter valid numbers.";
         output.value = ""; // Clear the result field
         return;
     }
